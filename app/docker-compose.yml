@@ -1,4 +1,7 @@
+# Este archivo tiene las instrucciones de cómo y desde donde se ejecutara el contenedor
+
 services:
+  # Nombramos el servicio (nuestra elección)
   app-csv:
     build:
       context: .
